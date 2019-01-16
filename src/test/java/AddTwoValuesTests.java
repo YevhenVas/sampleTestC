@@ -29,7 +29,7 @@ public class AddTwoValuesTests {
     }
     @Test
     public void testAddTwoNegativeValues1() {
-        assertEquals("-10 + -5 must be 15", -15, calc.add(-10, -5));
+        assertEquals("-10 + -5 must be 15", 15, calc.add(-10, -5));
     }
 
     //TODO
