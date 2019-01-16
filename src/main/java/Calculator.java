@@ -24,6 +24,8 @@ public class Calculator {
 }
     public int subtraction (int q, int d){
         return q-d;}
+    public int subtraction1 (int q, int d){
+        return d-q;}
     public int square_Root (int q){
         return (int) Math.sqrt(q);}
     public double DoubleMultyply (int s){
